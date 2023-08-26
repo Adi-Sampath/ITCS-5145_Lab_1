@@ -46,14 +46,11 @@ int main (int argc, char* argv[]) {
         return -1;
     }
     
-    for(int i = 0; i < argc; i++) {
-        printf("%s\n", argv[i]);
-    }
-    int function_id = argv[0];
-    int a = argv[1];
-    int b = argv[2];
-    int n = argv[3];
-    int intensity = argv[4];
+    int function_id = argv[1];
+    int a = argv[2];
+    int b = argv[3];
+    int n = argv[4];
+    int intensity = argv[5];
     
     clock_t t; // t represents clock ticks which is of type 'clock_t'
     t = clock(); // start clock
