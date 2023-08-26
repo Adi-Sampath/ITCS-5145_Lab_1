@@ -1,4 +1,4 @@
-#pragma warning(suppress : 4996)
+#pragma warning(disable : 4996)
 #include <math.h>
 #include <time.h>
 #include <stdio.h>
@@ -49,7 +49,7 @@ int main (int argc, char* argv[]) {
     for(int i = 0; i < argc; i++) {
         printf("%s\n", argv[i]);
     }
-    int function_id = (int) argv[0];
+    int function_id = argv[0];
     int a = argv[1];
     int b = argv[2];
     int n = argv[3];
