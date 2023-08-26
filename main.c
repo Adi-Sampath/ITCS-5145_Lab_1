@@ -20,7 +20,7 @@ extern "C" {
 
 double calc_numerical_integration(int functionid, int a, int b, int n, int intensity){
 
-    float con = (float)(b - a) / n;
+    float con = (float)((b - a) / n);
     float sum = 0;
     for(int i = 0; i <= (n - 1); i++) {
         float x = a + (i + 0.5) * con;
