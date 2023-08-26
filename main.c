@@ -45,6 +45,9 @@ int main (int argc, char* argv[]) {
         return -1;
     }
     
+    for(int i = 0; i < argc; i++) {
+        printf("%s\n", argv[i]);
+    }
     
     clock_t t; // t represents clock ticks which is of type 'clock_t'
     t = clock(); // start clock
