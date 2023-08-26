@@ -1,3 +1,4 @@
+#pragma warning(suppress : 4996)
 #include <math.h>
 #include <time.h>
 #include <stdio.h>
@@ -49,11 +50,11 @@ int main (int argc, char* argv[]) {
         printf("%s\n", argv[i]);
     }
     int function_id = (int) argv[0];
-    int a = (int) argv[1];
-    int b = (int) argv[2];
-    int n = (int) argv[3];
-    int intensity = (int) argv[4];
-     
+    int a = argv[1];
+    int b = argv[2];
+    int n = argv[3];
+    int intensity = argv[4];
+    
     clock_t t; // t represents clock ticks which is of type 'clock_t'
     t = clock(); // start clock
     double r = calc_numerical_integration(function_id, a, b, n, intensity);
