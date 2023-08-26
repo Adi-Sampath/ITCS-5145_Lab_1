@@ -4,8 +4,7 @@
 int main () {
 	
   char hostname[256];
-  int len;
-  len = gethostname(hostname, sizeof(hostname));
-  printf("Hostname: %s\n", len);
+  gethostname(hostname, sizeof(hostname));
+  printf("Hostname: %s\n", hostname);
   return 0;
 }

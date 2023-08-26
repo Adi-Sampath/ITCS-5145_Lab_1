@@ -18,7 +18,25 @@ extern "C" {
 #endif
 
 double calc_numerical_integration(int functionid, int a, int b, int n, int intensity){
-    
+
+    float con = (b - a) / n;
+    float sum = 0;
+    for(int i = 0; i <= (n - 1); i++) {
+        float x = a + (i + 0.5) * con;
+        if(functionid == 1) {
+            sum += f1(x, intensity);
+        }
+        else if(functionid == 2) {
+            sum += f2(x, intensity);
+        }
+        else if(functionid == 3) {
+            sum += f3(x, intensity);
+        }
+        else if(functionid == 4) {
+            sum += f4(x, intensity);
+        }
+    }
+    return con * sum;
 }
 int main (int argc, char* argv[]) {
     
