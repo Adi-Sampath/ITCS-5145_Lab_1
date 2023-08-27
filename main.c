@@ -1,4 +1,3 @@
-#pragma warning(disable : 4996)
 #include <math.h>
 #include <time.h>
 #include <stdio.h>
@@ -20,10 +19,11 @@ extern "C" {
 
 double calc_numerical_integration(int functionid, int a, int b, int n, int intensity){
 
-    float con = (float)((b - a) / n);
-    float sum = 0;
+    double con = (double)(b - a) / n;
+    double sum = 1.0;
+    // printf("Con %lf", con);
     for(int i = 0; i <= (n - 1); i++) {
-        float x = a + (i + 0.5) * con;
+        double x = a + (i + 0.5) * con;
         if(functionid == 1) {
             sum += f1(x, intensity);
         }
@@ -46,12 +46,13 @@ int main (int argc, char* argv[]) {
         return -1;
     }
     
-    int function_id = argv[1];
-    int a = argv[2];
-    int b = argv[3];
-    int n = argv[4];
-    int intensity = argv[5];
+    int function_id = atoi(argv[1]);
+    int a = atoi(argv[2]);
+    int b = atoi(argv[3]);
+    int n = atoi(argv[4]);
+    int intensity = atoi(argv[5]);
     
+    // printf("%d %d %d %d Variables ", a,b,n,intensity);
     clock_t t; // t represents clock ticks which is of type 'clock_t'
     t = clock(); // start clock
     double r = calc_numerical_integration(function_id, a, b, n, intensity);

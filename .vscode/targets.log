@@ -1,152 +1,223 @@
-make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 3.81
-# Copyright (C) 2006  Free Software Foundation, Inc.
-# This is free software; see the source for copying conditions.
-# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
 
-# This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
+# GNU Make 4.4.1
+# Built for Windows32
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
 
-
-# Make data base, printed on Thu Aug 25 16:00:34 2022
+# Make data base, printed on Sat Aug 26 23:54:54 2023
 
 # Variables
 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
-?F = $(notdir $?)
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# automatic
-@F = $(notdir $@)
-# makefile (from `Makefile', line 4)
-LDLIBS = libfunctions.a
-# makefile
-CURDIR := /Users/ddai/Dropbox (UNC Charlotte)/WorkDoc/Teaching/parallel-computing/1 - itcs5145-2022Fall/week-1/assignment-canvas
-# makefile
-SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-_ = /usr/bin/make
-# makefile (from `Makefile', line 1)
-CFLAGS = -O3 -std=c11 -fPIC
-# makefile (from `Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
- 
-# makefile (from `Makefile', line 2)
-CXXFLAGS = -O3 -std=c++11 -fPIC
-# environment
-__CFBundleIdentifier = com.microsoft.VSCode
-# environment
-VSCODE_CWD = /
-# environment
-PATH = /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
-# makefile (from `Makefile', line 5)
-LD = g++
-# environment
-LaunchInstanceID = BA5448D8-8958-4186-B0E4-35770196D8BA
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# makefile (from `Makefile', line 3)
-LDFLAGS = 
-# default
-.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
-# environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.jOAhkg0B58/Listeners
-# automatic
-%F = $(notdir $%)
-# environment
-PWD = /Users/ddai/Dropbox (UNC Charlotte)/WorkDoc/Teaching/parallel-computing/1 - itcs5145-2022Fall/week-1/assignment-canvas
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-HOME = /Users/ddai
-# default
-MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
-# environment
-VSCODE_CODE_CACHE_PATH = /Users/ddai/Library/Application Support/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
-# environment
-LOGNAME = ddai
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-XPC_FLAGS = 0x0
-# default
-MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
-# environment
-SHLVL = 1
-# default
-MAKE_VERSION := 3.81
-# environment
-USER = ddai
-# makefile
-.DEFAULT_GOAL := main
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# default
-MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
-# default
-.VARIABLES := 
-# environment
-TMPDIR = /var/folders/wt/gm8px6b53z56q_pr54k41mlc0000gp/T/
-# automatic
-*F = $(notdir $*)
-# environment
-VSCODE_IPC_HOOK = /Users/ddai/Library/Application Support/Code/1.70.2-main.sock
-# environment
-MallocNanoZone = 0
-# makefile
-MAKEFLAGS = Rrqp
-# environment
-MFLAGS = -Rrqp
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.560199243.560199252
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# automatic
-+F = $(notdir $+)
-# environment
-__CF_USER_TEXT_ENCODING = 0x1F6:0x0:0x0
-# environment
-COMMAND_MODE = unix2003
-# default
-MAKEFILES := 
-# automatic
-<F = $(notdir $<)
+SYSTEMDRIVE = C:
 # environment
 LC_ALL = C
 # environment
-SECURITYSESSIONID = 186c4
-# automatic
-^F = $(notdir $^)
-# default
-SUFFIXES := 
-# default
-.INCLUDE_DIRS = /usr/local/include
+USERPROFILE = C:\Users\Aditya Sampath
 # environment
-MAKELEVEL := 0
+VBOX_MSI_INSTALL_PATH = D:\Apps\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\Aditya Sampath\AppData\Local
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = D:\Apps\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_15644_MZWEJRIEKSTKEYPL
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.22.1
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Aditya Sampath\AppData\Roaming\Code\CachedData\6c3e3dba23e8fadc360aed75ce363ba185c49794
 # environment
 LANG = C
+# default
+.LOADED := 
 # environment
-VSCODE_PID = 6046
+TMP = C:\Users\ADITYA~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS := .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Aditya Sampath\OneDrive
+# makefile
+CURDIR := d:/Drive/College/MS/Sem_1/ITCS-5145_Parallel_Computing/assignment-01-canvas
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 15644
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+EFC_7716 = 1
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Aditya Sampath
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Users\Aditya Sampath\AppData\Local\cloud-code\installer\google-cloud-sdk\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\Apps\Python\Scripts\;D:\Apps\Python\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Apps\Git\cmd;D:\Apps\nodejs\;C:\Users\Aditya Sampath\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin\rustc.exe;D:\Apps\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Users\Aditya Sampath\.cargo\bin;C:\Users\Aditya Sampath\AppData\Local\Microsoft\WindowsApps;D:\Apps\Microsoft VS Code\bin;D:\Apps\Python\Scripts;C:\Users\Aditya Sampath\AppData\Roaming\npm;C:\Users\Aditya Sampath\.cargo;D:\Apps\New folder\miktex\bin\x64\;D:\Apps\Graphviz\bin;D:\Apps\msys64\mingw32\bin;D:\Apps\msys64\mingw64\bin;;C:\Users\Aditya Sampath\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Google\Cloud SDK\google-cloud-sdk\bin
+# environment
+COMPUTERNAME = VIVOBOOK
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 4)
+LDLIBS = libfunctions.a
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133375686651501448
+# environment
+LOGONSERVER = \\VIVOBOOK
+# environment
+USERNAME = Aditya Sampath
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = VIVOBOOK
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := main
+# default
+MAKE_VERSION := 4.4.1
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 3)
+LDFLAGS = 
+# environment
+USERDOMAIN_ROAMINGPROFILE = VIVOBOOK
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Aditya Sampath\AppData\Roaming
+# makefile (from 'Makefile', line 1)
+CFLAGS = -O3 -std=c11 -fPIC
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\ADITYA~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\7dad94fd5f9cd88b06a6cba382de157e-1.81.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 5)
+LD = g++
+# environment
+SESSIONNAME = Console
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
+# makefile (from 'Makefile', line 2)
+CXXFLAGS = -O3 -std=c++11 -fPIC
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver output-sync load dospaths
+# environment
+PROCESSOR_REVISION = 8e0a
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
 # variable set hash-table stats:
-# Load=65/1024=6%, Rehash=0, Collisions=1/89=1%
+# Load=102/1024=10%, Rehash=0, Collisions=11/130=8%
 
 # Pattern-specific Variable Values
 
@@ -154,9 +225,9 @@ VSCODE_PID = 6046
 
 # Directories
 
-# . (device 16777221, inode 561521269): 20 files, no impossibilities.
+# . (key d:/Drive/College/MS/Sem_1/ITCS-5145_Parallel_Computing/assignment-01-canvas, mtime 1693107770): 29 files, no impossibilities.
 
-# 20 files, no impossibilities in 1 directories.
+# 29 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -165,93 +236,13 @@ VSCODE_PID = 6046
 # Files
 
 # Not a target:
+functions.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 approx.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-all:
-#  Command-line target.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has not been updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-prelim: prelim.o
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 11):
-	$(LD) $(LDFLAGS) prelim.o -o prelim
-	
-
-# Not a target:
-prelim.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
- 
-
-libfunctions.a: functions.o
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 14):
-	ar rcs libfunctions.a functions.o
-	
-
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2020-01-14 15:22:53
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-assignment-numericalintegration.tgz: assignment-numericalintegration.pdf prelim.cpp queue_prelim.sh run_prelim.sh main.cpp libfunctions.a Makefile approx.cpp test.sh test_cases.txt queue_job.pbs bench.sh run_bench.sh plot.sh
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 37):
-	tar zcvf assignment-numericalintegration.tgz \
-	assignment-numericalintegration.pdf \
-	prelim.cpp queue_prelim.sh run_prelim.sh \
-	main.cpp libfunctions.a Makefile \
-	approx.cpp test.sh test_cases.txt \
-	queue_job.pbs bench.sh run_bench.sh plot.sh 
-	
-
-# Not a target:
-queue_prelim.sh:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-test: main approx
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 20):
-	./test.sh
-	
-
-# Not a target:
-main.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-test.sh:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -262,46 +253,24 @@ assignment-numericalintegration.tex:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-approx:
+assignment-numericalintegration.tgz: assignment-numericalintegration.pdf prelim.cpp queue_prelim.sh run_prelim.sh main.cpp libfunctions.a Makefile approx.cpp test.sh test_cases.txt queue_job.pbs bench.sh run_bench.sh plot.sh
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+	tar zcvf assignment-numericalintegration.tgz \
+	assignment-numericalintegration.pdf \
+	prelim.cpp queue_prelim.sh run_prelim.sh \
+	main.cpp libfunctions.a Makefile \
+	approx.cpp test.sh test_cases.txt \
+	queue_job.pbs bench.sh run_bench.sh plot.sh 
 
-# Not a target:
-functions.o:
+prelim: prelim.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-prelim.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-clean:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 26):
-	-rm main approx
-	-rm main.o approx.o
-	
-
-bench: main
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 23):
-	./bench.sh	
-	
+#  recipe to execute (from 'Makefile', line 11):
+	$(LD) $(LDFLAGS) prelim.o -o prelim
 
 # Not a target:
 queue_job.pbs:
@@ -315,13 +284,104 @@ run_bench.sh:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+prelim.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-08-24 16:03:13
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test_cases.txt:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libfunctions.a: functions.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	ar rcs libfunctions.a functions.o
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	-rm main approx
+	-rm main.o approx.o
+
+# Not a target:
+queue_prelim.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+run_prelim.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+assignment-numericalintegration.pdf: assignment-numericalintegration.tex
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	pdflatex assignment-numericalintegration.tex
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+approx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 main: main.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 8):
+#  recipe to execute (from 'Makefile', line 8):
 	$(LD) $(LDFLAGS) main.o $(LDLIBS) -o main
-	
+
+test: main approx
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	./test.sh
 
 # Not a target:
 main.o:
@@ -333,12 +393,11 @@ plot:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 17):
+#  recipe to execute (from 'Makefile', line 17):
 	./plot.sh
-	
 
 # Not a target:
-run_prelim.sh:
+prelim.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -349,39 +408,33 @@ bench.sh:
 #  Modification time never checked.
 #  File has not been updated.
 
-assignment-numericalintegration.pdf: assignment-numericalintegration.tex
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 30):
-	pdflatex assignment-numericalintegration.tex
-	
-
 # Not a target:
 plot.sh:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-test_cases.txt:
+bench: main
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	./bench.sh	
 
 # files hash-table stats:
-# Load=29/1024=3%, Rehash=0, Collisions=2/62=3%
+# Load=29/1024=3%, Rehash=0, Collisions=0/61=0%
 # VPATH Search Paths
 
-# No `vpath' search paths.
+# No 'vpath' search paths.
 
-# No general (`VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# strcache buffers: 1 (0) / strings = 43 / storage = 481 B / avg = 11 B
+# current buf: size = 8174 B / used = 481 B / count = 43 / avg = 11 B
 
-# Finished Make data base on Thu Aug 25 16:00:34 2022
+# strcache performance: lookups = 75 / hit rate = 42%
+# hash-table stats:
+# Load=43/8192=1%, Rehash=0, Collisions=0/75=0%
+# Finished Make data base on Sat Aug 26 23:54:54 2023
 
  
