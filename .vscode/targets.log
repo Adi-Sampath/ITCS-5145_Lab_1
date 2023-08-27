@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 26 23:54:54 2023
+# Make data base, printed on Sun Aug 27 10:40:55 2023
 
 # Variables
 
@@ -41,7 +41,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_15644_MZWEJRIEKSTKEYPL
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_15788_QODQALLFHSWNBPED
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.22.1
 # environment
@@ -95,11 +95,9 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 15644
+VSCODE_PID = 15788
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
-# environment
-EFC_7716 = 1
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -140,6 +138,8 @@ PROMPT = $P$G
 LDLIBS = libfunctions.a
 # environment
 CHOCOLATEYLASTPATHUPDATE = 133375686651501448
+# environment
+EFC_2864 = 1
 # environment
 LOGONSERVER = \\VIVOBOOK
 # environment
@@ -225,7 +225,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (key d:/Drive/College/MS/Sem_1/ITCS-5145_Parallel_Computing/assignment-01-canvas, mtime 1693107770): 29 files, no impossibilities.
+# . (key d:/Drive/College/MS/Sem_1/ITCS-5145_Parallel_Computing/assignment-01-canvas, mtime 1693147230): 29 files, no impossibilities.
 
 # 29 files, no impossibilities in 1 directories.
 
@@ -435,6 +435,6 @@ bench: main
 # strcache performance: lookups = 75 / hit rate = 42%
 # hash-table stats:
 # Load=43/8192=1%, Rehash=0, Collisions=0/75=0%
-# Finished Make data base on Sat Aug 26 23:54:54 2023
+# Finished Make data base on Sun Aug 27 10:40:55 2023
 
  
